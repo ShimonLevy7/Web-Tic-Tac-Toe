@@ -1,0 +1,22 @@
+button {
+    font-size: 28px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    width: 150px;
+    cursor: pointer;
+    position: fixed;
+    top: 10%;
+    left: 45%;
+}
+
+button:hover
+{
+    background-color: black;
+    color: white;
+}
+
+button:active {
+    scale: .9;
+}

@@ -1,0 +1,52 @@
+.cell.X::before
+{
+	content: '';
+	width: 10px;
+	height: 80px;
+	background-color: red;
+	position: absolute;
+	rotate: 45deg;
+}
+.cell.X::after
+{
+	content: '';
+	width: 10px;
+	height: 80px;
+	background-color: red;
+	position: absolute;
+	rotate: -45deg;
+}
+.cell.X {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	cursor: not-allowed;
+}
+
+
+.cell.O::before
+{
+    content: '';
+    background-color: green;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.cell.O::after
+{
+    content: '';
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.cell.O {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: not-allowed;
+}
